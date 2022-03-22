@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design - Easy Tutorials</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,900;1,200;1,300;1,900&family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700;1,200&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+        integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/Sass/style.css">
+</head>
+
+<body>
+    <section class="firstSection Sub">
+        <nav>
+
+            <a href=""> <img src="/Images/logo.png" alt=""></a>
+            <div class="navLinks" id="NavLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html"> HOME</a></li>
+                    <li><a href="/about.html">ABOUT</a></li>
+                    <li><a href="/course.html">COURSE</a></li>
+                    <li><a href="/blog.html">BLOG</a></li>
+                    <li><a href="/contact.html">CONTACT</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <h1>Contact Us</h1>
+
+    </section>
+    <section class="secondSection location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.8551718768445!2d3.376523214318711!3d7.142740817637236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103a4b08f0170e29%3A0x7acce266df150aff!2sAFRICA%20TRAINOVATION%20CONSULTING.%20(ATC%20Hub)!5e0!3m2!1sen!2sng!4v1647947252640!5m2!1sen!2sng"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+
+    <section class="campus">
+        <div class="box">
+            <div class="col">
+                <div>
+                    <i class="fa-solid fa-house"></i>
+                    <span>
+                        <h5>Idi aba, Abeokuta</h5>
+                        <p>Ogun State,Nigeria.</p>
+                    </span>
+                </div>
+                <div>
+                <i class="fa-solid fa-phone"></i>
+                    <span>
+                        <h5>+2348030040049</h5>
+                        <p>Monday - Saturday</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>
+                        <h5>info@gmail.com</h5>
+                        <p>Email us your query </p>
+                    </span>
+                </div>
+                
+            </div>
+            <div class="col">
+                <form action="">
+                    <input type="text" placeholder="Enter your name" required>
+                    <input type="text" placeholder="Enter Email Address" required>
+                    <input type="text" placeholder="Enter your subject" required>
+                    <textarea  rows="8" placeholder="Message" required></textarea>
+                    <div style="align-self: flex-start;"><button type="submit" class="btn hero" >Send Message</button></div>
+                </form>
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <footer class="lastSection ">
+        <br>
+        <br>
+
+        <h3>
+            About Us
+        </h3>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing.Pellentesque aliquet turpis nulla, eleifend
+            faucibus
+            est <br> sollicitudin
+            ut. Maecenas ut venenat ex, et dapibus purus.</p>
+        <div class="icons">
+
+            <i class="fa-brands fa-facebook-square"></i>
+            <i class="fa-brands fa-twitter-square"></i>
+
+            <i class="fa-brands fa-instagram-square"></i>
+
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+
+        <p>Made with <i class="fa-solid fa-heart" style="color: #f44336;"></i> by Oluwabunmi Gbemisoye</p>
+    </footer>
+
+    <script src="/main.js"></script>
+</body>
+
+</html>
